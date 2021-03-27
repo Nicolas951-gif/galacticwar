@@ -1,0 +1,543 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+/* nav */
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.ag{
+    color: black;
+}
+
+.ag:hover{
+    color: #3f3f3f;
+}
+
+nav{
+    display: flex;
+    height: 92px;
+    background-color: #ffffff;
+}
+
+.zona{
+    display: flex;
+    flex-direction: row;
+    width: 1250px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#logo1{
+    height: 55px;
+    width: 55px;
+}
+
+.guia{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.ul{
+    display: flex;
+    justify-content: flex-start;
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+    justify-content: center;
+    width: 200px;
+    margin-right: 30px;
+}
+
+/* header */
+
+header{
+    height: 580px;
+    width: auto;
+    background-color: #243572;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spaceH{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    align-items: center;
+}
+
+.titulo{
+    margin: 0px;
+}
+
+#h1tit{
+    color: #ffffff;
+    font-size: 68px;
+    text-align: center;
+}
+
+#gaming{
+    color: #F7EC6B;
+}
+
+#img{
+    width: 450px;
+    height: auto;
+}
+
+.img{
+    margin: 0px;
+}
+
+.main1{
+    display: flex;
+    flex-direction: column;
+}
+
+#h1jugado{
+    color: #303030;
+    align-items: flex-start;
+    display: flex;
+    font-size: 50px;
+}
+
+.fotosolar{
+    margin: 0px;
+    height: 342px;
+    width: auto;
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.30);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#imgsolar{
+    height: 342px;
+    width: auto;
+}
+
+.desc2{
+    margin: 0px;
+    height: 342px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.descsolar{
+    width: 400px;
+    margin: 0px;
+}
+
+#descTXT{
+    font-size: 19px;
+}
+
+.juego1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1250px;
+}
+
+.lmj{
+    display: flex;
+    justify-content: flex-start;
+    width: 1250px;
+}
+
+.lomasjugado{
+    display: flex;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.iraljuego{
+    border-style: none;
+    background-color: #00003E;
+    width: 150px;
+    height: 40px;
+    border-radius: 60px;
+    padding: 0px;
+    margin: 0px;
+    outline-style: none;
+    transition: 200ms ease-out;
+}
+
+.iraljuego:hover{
+    transform: scale(1.08);
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.30);
+}
+
+#a123{
+    color: white;
+    font-size: 18px;
+}
+
+.division{
+    background-color: rgba(0, 0, 0, 0.26);
+    height: 1px;
+    width: 900px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.Reco{
+    display: flex;
+    justify-content: flex-start;
+    width: 1250px;
+}
+
+.recomendados{
+    display: flex;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+#h1reco{
+    color: #303030;
+    align-items: flex-start;
+    display: flex;
+    font-size: 50px;
+}
+
+/* tarjetas */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1250px;
+    margin-bottom: 80px;
+}
+
+.imgr{
+    width: 340px;
+    height: 200px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.element{
+    width: 340px;
+    height: 500px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.30);
+    margin: 0px;
+}
+
+.h2r{
+    margin: 4%;
+    font-weight: bold;
+}
+
+.pr{
+    margin: 5%;
+    font-size: 17.5px;
+    font-weight: inherit;
+}
+
+.lol{
+    border-style: none;
+    background-color: #079d9c;
+    padding: 8px;
+    color: white;
+    border-radius: 10000px;
+    width: 50%;
+    margin: 4%;
+    font-size: 20px;
+    transition: 200ms ease-out;
+    outline-style: none;
+}
+
+.lol:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.30);
+}
+
+.among{
+    border-style: none;
+    background-color: #184983;
+    padding: 8px;
+    color: white;
+    border-radius: 10000px;
+    width: 50%;
+    margin: 4%;
+    font-size: 20px;
+    transition: 200ms ease-out;
+    outline-style: none;
+}
+
+.among:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.30);
+}
+
+.brawl{
+    border-style: none;
+    background-color: #f45c3b;
+    padding: 8px;
+    color: white;
+    border-radius: 10000px;
+    width: 50%;
+    margin: 4%;
+    font-size: 20px;
+    transition: 200ms ease-out;
+    outline-style: none;
+}
+
+.brawl:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.30);
+}
+
+/* footer */
+
+footer{
+    background-color: #133274;
+    height: 200px;
+    align-items: center;
+    display: flex;
+}
+
+.zonaf{
+    width: 1250px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+#imglog2{
+    width: 200px;
+    height: auto;
+}
+
+.logo2{
+    display: flex;
+    margin: 0px;
+    
+}
+
+.registro{
+    margin: 0px;
+    height: 110px;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 120px;
+}
+
+#h2s{
+    color: #ffffff;
+    font-weight: inherit;
+    font-size: 20px;
+}
+
+.h2s{
+    margin-left: 0px;
+}
+
+.input{
+    outline-style: none;
+    border-style: none;
+    width: 350px;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    height: 27px;
+    padding-left: 10px;
+}
+
+.enviar{
+    background-color: #F7EC6B;
+    border-style: none;
+    outline-style: none;
+    padding: 4px;
+    width: 80px;
+    border-radius: 8px;
+    margin-left: 0px;
+    transition: 200ms ease-out;
+}
+
+#enviar{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(32, 32, 32);
+}
+
+.enviar:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.30);
+}
+
+/* responsive */
+
+@media (max-width: 768px){
+    nav{
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+
+    .ag{
+        font-size: 17px;
+    }
+
+    ul{
+        padding-left: 10px;
+        width: 258pxpx;
+    }
+
+    li{
+        margin-right: 15px;
+    }
+
+    #lig{
+        margin-right: 0px;
+    }
+
+    .zona{
+        justify-content: center;
+        width: 340px;
+    }
+
+    .spaceH{
+        flex-direction: column;
+        display: flex;
+        height: 460px;
+    }
+    
+    #h1tit{
+        font-size: 50px;
+    }
+
+    #img{
+        width: 300px;
+    }
+
+    header{
+        height: 550px;
+        width: auto;
+    }
+
+    .juego1{
+        flex-direction: column;
+        width: 340px;
+        height: 580px;
+        justify-content: space-between;
+    }
+
+    .lmj{
+        width: 340px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lomasjugado{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #h1jugado{
+        font-size: 30px;
+    }
+
+    #imgsolar{
+        width: 340px;
+        height: auto;
+    }
+
+    .fotosolar{
+        width: 340px;
+        height: 190.95px;
+    }
+
+    .descsolar{
+        width: 340px;
+    }
+
+    #descTXT{
+        font-size: 17px;
+    }
+
+    .desc2{
+        margin-left: 0px;
+        height: 330px;
+    }
+
+    .division{
+        width: 340px;
+        margin-top: 55px;
+        margin-bottom: 40px;
+    }
+
+    #h1reco{
+        font-size: 30px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .Reco{
+        width: 340px;
+        justify-content: center;
+    }
+
+    .recomendados{
+        margin-bottom: 40px;
+    }
+
+    .container{
+        width: 340px;
+        height: 1680px;
+    }
+
+    footer{
+        height: 280px;
+        width: auto;
+    }
+
+    .zonaf{
+        width: 340px;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .registro{
+        margin: 0px;
+    }
+
+    .input{
+        width: 280px;
+    }
+
+}
